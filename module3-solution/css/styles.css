@@ -1,0 +1,85 @@
+body {
+    font-size: 16px;
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: peachpuff;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.navbar-brand h1 {
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: -10px;
+}
+#nav-list a {
+    color: #000;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background-color: blue;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #000;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -50px;
+}
+/* END HEADER */
+
+section {
+    border: 1px solid #000;
+    margin-top: 30px;
+    background-color: azure;
+}
+
+section h3 {
+    margin-top: 10px;
+    font-size: 1.4em;
+}
+
+section p {
+    padding: 10px;
+}
+
+
+
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand h1 {
+        font-size: 1.7em;
+        margin-top: -8px;
+    }
+
+    #collapsable-nav p { /* Collapsed nav menu text */
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        color: #ddd;
+    }
+
+    #nav-list {
+        margin-bottom: 0;
+        margin-top: 0;
+        background-color: brown;
+    }
+
+    #nav-list li {
+        border-bottom: 1px solid #ddd;
+    }
+    /* End Header */
+}
